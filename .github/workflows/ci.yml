@@ -1,4 +1,4 @@
-name: ci-nwearningscalculator-workflow
+name: ci-algorithms-and-data-structures-workflow
 # on: [pull_request] # push, pull_request
 on:
   pull_request:
