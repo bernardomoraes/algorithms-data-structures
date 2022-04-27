@@ -3,7 +3,7 @@ name: ci-nwearningscalculator-workflow
 on:
   pull_request:
     branches:
-      - develop
+      - development
       - master
       
 jobs:
