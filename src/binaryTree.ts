@@ -30,6 +30,18 @@ export default class BTHeigth {
     return node;
   }
 
+  recursiveBuildTree3(queue: number[], node: Node): Node {
+    const current = queue.shift();
+
+    if (!current) return node;
+  }
+
+  recursiveBuildTree2(queue: number[], node: Node): Node {
+    const current = queue.shift();
+
+    if (!current) return node;
+  }
+
   main() {
     // Doing this because side effect of the orinal array (shift removes the first element)
     const treeNodesArray = Array.from(this.input);
@@ -38,6 +50,8 @@ export default class BTHeigth {
     if (!rootValue) return 0;
 
     this.recursiveBuildTree(treeNodesArray, initialNode);
+    this.recursiveBuildTree2(treeNodesArray, initialNode);
+    this.recursiveBuildTree3(treeNodesArray, initialNode);
 
     return this.input;
   }
