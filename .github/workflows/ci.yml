@@ -3,7 +3,7 @@ name: ci-algorithms-and-data-structures-workflow
 on:
   pull_request:
     branches:
-      - development
+      - develop
       - master
       
 jobs:
