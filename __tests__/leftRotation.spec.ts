@@ -6,7 +6,7 @@ describe("Left Rotation", () => {
     const arr = [1, 2, 3, 4, 5];
     const rotAmount = 4;
 
-    const result = rotateLeft(rotAmount, arr, arr.length);
+    const result = rotateLeft(rotAmount, arr);
 
     expect(result).toEqual(reponse);
   });
