@@ -6,7 +6,7 @@
   "scripts": {
     "ts-node": "ts-node",
     "tsc": "tsc",
-    "test": "jest --passWithNoTests --no-cache --runInBand --coverage",
+    "test": "jest --passWithNoTests --no-cache --runInBand --coverage --verbose --silent",
     "env:dev": "docker-compose up --build",
     "env:bash": "docker-compose exec app bash"
   },
